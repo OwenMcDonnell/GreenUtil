@@ -1,6 +1,6 @@
 environment:
   access_token:
-    secure: 9a/h0Ohk7nVzvZbqq5F8macjQMCluZ9yaj8YBjVnIH6roPfztWdi6o00LkjN50Bj
+    secure: OPLBHeZzL5ATezLrF5TsKxpc7JhhzvOne7E9MyxfNHafNf9aKiIUbr/mRcuvqHQU
 image: Visual Studio 2017
 configuration: Release
 init:
