@@ -22,6 +22,6 @@ git add .
 git status
 git commit -m "Commiting wiki changes"
 git status
-git push
+git push origin master
 git status
 Write-Host "Finish publishing documentation to wiki"
