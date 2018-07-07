@@ -43,7 +43,7 @@ on_success:
   - ps: Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
   - git config --global user.email "owenmcdonnell@appveyor.com"
   - git config --global user.name "Owen McDonnell"
-  - ps: Remove-Item $mdFolder -Force -Recurse -ErrorAction SilentlyContinue
+  #- ps: Remove-Item $mdFolder -Force -Recurse -ErrorAction SilentlyContinue
   - md $mdFolder
   - cd $mdFolder
   - 
